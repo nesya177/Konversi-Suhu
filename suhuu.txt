@@ -1,0 +1,22 @@
+<html>
+<body bgcolor="blue">
+
+<td>
+
+</td>
+</html>
+
+<script language="JavaScript" type="text/javascript">
+fahrenheit = prompt("Masukan suhu (Fahrenheit)","");
+celcius=parseInt((fahrenheit)-32) /1.8;
+rheamur=celcius * 0.8;
+kelvin=celcius + 273.15;
+
+document.write("<center><font size=10 color='gold'>Perbandingan Suhu</font></center>","<br>");
+document.write("<font size=5 color='gold'>*************************************************</font>","<br>");
+document.write("<font size=5 color='gold'>Fahrenheit = ",fahrenheit,"<sup>o</sup>F</font><br>");
+document.write("<font size=5 color='gold'>Celcius = ",fahrenheit," - ",32," / ",1.8,"= ", celcius,"<sup>o</sup>C</font><br>");
+document.write("<font size=5 color='gold'>Rheamur = ",celcius," * ",0.8," = ",rheamur,"<sup>o</sup>R</font><br>");
+document.write("<font size=5 color='gold'>Kelvin = ",celcius," + ",273.15," = ",kelvin,"<sup>o</sup>K</font><br>");
+document.write("<font size=5 color='gold'>*************************************************</font>","<br>");
+</script>
